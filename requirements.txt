@@ -1,0 +1,11 @@
+matplotlib
+opencv-python
+Pillow
+numpy
+
+# Real-time collaboration (optional)
+python-socketio[client]
+python-socketio
+flask
+eventlet
+requests
