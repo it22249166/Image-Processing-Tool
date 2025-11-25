@@ -1,0 +1,86 @@
+2025-11-20 02:49:06.138 python3[11185:17564388] The class 'NSOpenPanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/tkinter/__init__.py", line 1968, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/malith_bandara/Desktop/DIP-test/main.py", line 4691, in handle_press
+    self.start_drag_resize(event)
+  File "/Users/malith_bandara/Desktop/DIP-test/main.py", line 3842, in start_drag_resize
+    self.canvas.itemconfig("current_image", outline=self.accent_primary, width=2, dash=(5, 2))
+  File "/opt/anaconda3/lib/python3.12/tkinter/__init__.py", line 2988, in itemconfigure
+    return self._configure(('itemconfigure', tagOrId), cnf, kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/tkinter/__init__.py", line 1712, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+_tkinter.TclError: unknown option "-outline"
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/tkinter/__init__.py", line 1968, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/Users/malith_bandara/Desktop/DIP-test/main.py", line 4708, in handle_release
+    self.end_drag_resize(event)
+  File "/Users/malith_bandara/Desktop/DIP-test/main.py", line 3898, in end_drag_resize
+    self.canvas.itemconfig("current_image", outline="", dash="")
+  File "/opt/anaconda3/lib/python3.12/tkinter/__init__.py", line 2988, in itemconfigure
+    return self._configure(('itemconfigure', tagOrId), cnf, kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/tkinter/__init__.py", line 1712, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+_tkinter.TclError: unknown option "-outline"
+2025-11-20 02:50:31.874 python3[11185:17564388] The class 'NSSavePanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
+Exception ignored in: <function PhotoImage.__del__ at 0x11e35e8e0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/PIL/ImageTk.py", line 132, in __del__
+    name = self.__photo.name
+           ^^^^^^^^^^^^
+AttributeError: 'PhotoImage' object has no attribute '_PhotoImage__photo'
+Exception ignored in: <function PhotoImage.__del__ at 0x11e35e8e0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/PIL/ImageTk.py", line 132, in __del__
+    name = self.__photo.name
+           ^^^^^^^^^^^^
+AttributeError: 'PhotoImage' object has no attribute '_PhotoImage__photo'
+Exception ignored in: <function PhotoImage.__del__ at 0x11e35e8e0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/PIL/ImageTk.py", line 132, in __del__
+    name = self.__photo.name
+           ^^^^^^^^^^^^
+AttributeError: 'PhotoImage' object has no attribute '_PhotoImage__photo'
+Exception ignored in: <function PhotoImage.__del__ at 0x11e35e8e0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/PIL/ImageTk.py", line 132, in __del__
+    name = self.__photo.name
+           ^^^^^^^^^^^^
+AttributeError: 'PhotoImage' object has no attribute '_PhotoImage__photo'
+Exception ignored in: <function PhotoImage.__del__ at 0x11e35e8e0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/PIL/ImageTk.py", line 132, in __del__
+    name = self.__photo.name
+           ^^^^^^^^^^^^
+AttributeError: 'PhotoImage' object has no attribute '_PhotoImage__photo'
+Exception ignored in: <function PhotoImage.__del__ at 0x11e35e8e0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/PIL/ImageTk.py", line 132, in __del__
+    name = self.__photo.name
+           ^^^^^^^^^^^^
+AttributeError: 'PhotoImage' object has no attribute '_PhotoImage__photo'
+Exception ignored in: <function PhotoImage.__del__ at 0x11e35e8e0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/PIL/ImageTk.py", line 132, in __del__
+    name = self.__photo.name
+           ^^^^^^^^^^^^
+AttributeError: 'PhotoImage' object has no attribute '_PhotoImage__photo'
+Exception ignored in: <function PhotoImage.__del__ at 0x11e35e8e0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/PIL/ImageTk.py", line 132, in __del__
+    name = self.__photo.name
+           ^^^^^^^^^^^^
+AttributeError: 'PhotoImage' object has no attribute '_PhotoImage__photo'
+Exception ignored in: <function PhotoImage.__del__ at 0x11e35e8e0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/PIL/ImageTk.py", line 132, in __del__
+    name = self.__photo.name
+           ^^^^^^^^^^^^
+AttributeError: 'PhotoImage' object has no attribute '_PhotoImage__photo'
